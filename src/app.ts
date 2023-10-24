@@ -7,29 +7,6 @@ const manager = new NlpManager({ languages: ['pt'], forcptER: true });
 // TREINO DE SAUDAÇÃO
 manager.addDocument('pt', 'voce esta bem', 'ESTAR');
 manager.addDocument('pt', 'bom dia', 'DIA');
-manager.addDocument('pt', 'Mano, boa tarde... Tudo bem? Confirmado para sua parte mais tarde?  LEITURA DA BÍBLIA', 'SALAO');
-manager.addDocument('pt', 'olá tudo bem? confirmado sua parte mais tarde?', 'SALAO');
-manager.addDocument('pt', 'boa tarde', 'TARDE');
-manager.addDocument('pt', 'boa noite', 'NOITE');
-manager.addDocument('pt', 'bom final de semana', 'SEMANA');
-manager.addDocument('pt', 'tudo bem', 'SAUDE');
-manager.addDocument('pt', 'voce ta bem', 'SAUDE');
-manager.addDocument('pt', 'oi', 'SAUDACAO');
-manager.addDocument('pt', 'ola', 'SAUDACAO');
-manager.addDocument('pt', 'opa', 'SAUDACAO');
-manager.addDocument('pt', 'ja saiu da escola', 'ESCOLA');
-manager.addDocument('pt', 'itapuca partiu', 'ITAPUCA');
-manager.addDocument('pt', 'bora cair', 'ITAPUCA')
-manager.addDocument('pt', 'bora surfar', 'ITAPUCA')
-manager.addDocument('pt', 'bora andar de skate', 'SKATE')
-manager.addDocument('pt', 'cabixu', 'FAMILIA')
-manager.addDocument('pt', 'cabexu', 'FAMILIA')
-manager.addDocument('pt', 'cocoseco', 'FAMILIA')
-manager.addDocument('pt', 'fez muitas atividades', 'ESTUDO')
-manager.addDocument('pt', 'cripto', 'MARKET')
-manager.addDocument('pt', 'crypto', 'MARKET')  
-
-
 
 manager.addAnswer(
   'pt',
